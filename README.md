@@ -2,6 +2,8 @@
 
 A library for manipulating Urbit [atoms and auras](https://urbit.org/docs/tutorials/hoon/atoms-auras-and-simple-cell-types/).
 
+Based on [@dclelland's UrsusAtom CocoaPod](https://github.com/dclelland/UrsusAtom).
+
 ## Usage
 
 Ursus Atom grants support for the urbit phonetic base, useful for representing Azimuth points ('ships'):
@@ -21,21 +23,11 @@ Current implementations:
 
 ## Installation
 
-Ursus Atom can be installed using Cocoapods by adding the following line to your podfile:
+Ursus Atom can be installed using Swift Package Manager by adding this repository's URL to your project's packages:
 
-```ruby
-pod 'UrsusAtom', '~> 1.2'
 ```
-
-I can probably help set up Carthage or Swift Package Manager support if you need it.
-
-## Todo list
-
-Things that would make this codebase nicer:
-
-- [ ] Additional atom and aura types; the date format would be a good candidate.
-- [ ] Unit tests for the cryptographic methods in [`PhoneticBaseObfuscator`](Ursus%20Phonetic%20Base/PhoneticBaseObfuscator.swift) (ported from [urbit-hob](https://github.com/urbit/urbit-hob/blob/master/lib/Urbit/Ob/Ob.hs)).
-- [ ] Better documentation/examples.
+https://github.com/alecananian/UrsusAtom
+```
 
 ## Other utilities
 
@@ -47,4 +39,3 @@ Things that would make this codebase nicer:
 
 - [BigInt](https://github.com/attaswift/BigInt)
 - [MurmurHash-Swift](https://github.com/daisuke-t-jp/MurmurHash-Swift)
-- [Parity](https://github.com/dclelland/Parity)

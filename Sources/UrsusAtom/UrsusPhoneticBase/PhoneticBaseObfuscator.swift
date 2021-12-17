@@ -7,7 +7,6 @@
 
 import Foundation
 import MurmurHash_Swift
-import Parity
 
 public struct PhoneticBaseObfuscator {
 
